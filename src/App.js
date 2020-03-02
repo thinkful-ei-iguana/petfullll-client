@@ -1,31 +1,31 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './Routes/Home';
-import Adoption from './Routes/Adoption';
+import './App.css';
+import AdoptionProcess from './AdoptionProcess';
+import { Switch,Route } from 'react-router-dom';
+import { AdoptNow } from './AdoptNow';
 
-function App() {
-  return (
-    <div className='App'>
-      <BrowserRouter>
-      <Switch>
-        <Route
-          exact
-          path='/'
-          render={renderProps => {
-            return <Home {...renderProps} />;
-          }}
-        />
-        <Route
-          exact
-          path='/Adoption'
-          render={renderProps => {
-            return <Adoption {...renderProps} />;
-          }}
-        />
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1>This is Petful</h1>
+        </header>
+        <Switch>
+          <Route
+            exact
+            path={'/'}
+            component={AdoptionProcess}
+          ></Route>
+          <Route
+            exact
+            path={'/adopt'}
+            component={AdoptNow}
+          ></Route>
         </Switch>
-      </BrowserRouter>
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
