@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #0f90cd;
 }
 
 .App-logo {
@@ -14,19 +15,33 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #0f90cd;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-bottom: 3%;
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  text-decoration: none;
 }
+
+.StartProcess {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #0f90cd;
+  padding: 10px;
+  font-size: 18px;
+}
+
 
 @keyframes App-logo-spin {
   from {

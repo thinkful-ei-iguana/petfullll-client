@@ -1,5 +1,4 @@
 import React from 'react';
-import Queue from './queue-helper';
 
 class List extends React.Component {
   constructor(props) {

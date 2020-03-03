@@ -1,0 +1,26 @@
+main {
+    width: 100%;
+  }
+  .AdoptNow {
+    color: white;
+    background: #0f90cd;
+    font-size: 19px;
+    &__button {
+      background: white;
+      color: #0f90cd;
+      border-radius: 10px;
+      width: 125px;
+      margin: 12px;
+      font-size: 18px;
+    }
+    & ul {
+      list-style-type: none;
+      padding-inline-start: 0;
+    }
+    &__stats {
+      margin: 24px;
+    }
+    & img {
+      margin: 24px;
+    }
+  }

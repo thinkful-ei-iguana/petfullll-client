@@ -1,20 +1,17 @@
 import React, {
     Component
   } from 'react';
-  import PropTypes from 'prop-types';
+
   import { Link } from 'react-router-dom';
   
   class AdoptionProcess extends Component {
-    constructor(props) {
-      super(props);
-    }
-  
+
     render() {
       return (
-        <main class="AdoptionProcess">
+        <main className="AdoptionProcess">
           <img
-            src={require('./images/n02088238_7741.jpg')}
-            alt="dog wanting adoption"
+            src={require('./Images/petful-img.jpg')}
+            alt="pets wanting adoption"
             width="285"
           ></img>
           <p className="description">

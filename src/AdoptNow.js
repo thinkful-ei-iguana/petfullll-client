@@ -39,10 +39,10 @@ export class AdoptNow extends React.Component {
   getQuedPets() {
     Promise.all([
       fetch(
-        'https://tranquil-caverns-87214.herokuapp.com/api/cat'
+        'https://krys-aust-petful-server.herokuapp.com/api/cat'
       ),
       fetch(
-        'https://tranquil-caverns-87214.herokuapp.com/api/dog'
+        'https://krys-aust-petful-server.herokuapp.com/api/dog'
       )
     ])
       .then(([catrsp, dogrsp]) => {
@@ -109,14 +109,14 @@ export class AdoptNow extends React.Component {
         let animalToAdopt;
         if (randompet > 0.5) {
           animalToAdopt =
-            'https://krys-aust-petful-server.herokuapp.com//api/cat';
+            'https://krys-aust-petful-server.herokuapp.com/api/cat';
           adoptedAnimal = {
             ...this.state.upNext.cat
           };
           console.log(adoptedAnimal);
         } else {
           animalToAdopt =
-            'https://krys-aust-petful-server.herokuapp.com//api/dog';
+            'https://krys-aust-petful-server.herokuapp.com/api/dog';
           adoptedAnimal = {
             ...this.state.upNext.dog
           };
@@ -164,11 +164,11 @@ export class AdoptNow extends React.Component {
     }, 3000);
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     const people = [
       'Tauhida',
-      'Jack',
-      'Dana'
+      'Austin',
+      'Krystle'
     ];
     this.QueueUpPeople(people);
   }
