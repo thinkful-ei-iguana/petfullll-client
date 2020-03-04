@@ -113,14 +113,12 @@ export class AdoptNow extends React.Component {
           adoptedAnimal = {
             ...this.state.upNext.cat
           };
-          console.log(adoptedAnimal);
         } else {
           animalToAdopt =
             'https://krys-aust-petful-server.herokuapp.com/api/dog';
           adoptedAnimal = {
             ...this.state.upNext.dog
           };
-          console.log(adoptedAnimal);
         }
         temp.dequeue();
         fetch(animalToAdopt, {
