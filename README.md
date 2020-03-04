@@ -3,9 +3,9 @@ Petful is an app that allows users to adopt a pet. Upon start you will be placed
 
 ## Live App
 
-[Petful Live Site](https://krys-aust-petful.herokuapp.com/)
-[Client Repo](https://github.com/thinkful-ei-iguana/petfullll-client)
-[Server Repo](https://github.com/thinkful-ei-iguana/petfulll-server)
+[Petful Live Site](https://krys-aust-petful.herokuapp.com/)<br/>
+[Client Repo](https://github.com/thinkful-ei-iguana/petfullll-client)<br/>
+[Server Repo](https://github.com/thinkful-ei-iguana/petfulll-server)<br/>
 
 ## Technologies Used
 
