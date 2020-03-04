@@ -1,4 +1,4 @@
-# Petful built by Austin Tumlinson and Krystle Knoweski
+# Petful built by Austin Tumlinson and Krystle Noweski
 Petful is an app that allows users to adopt a pet. Upon start you will be placed in line while those ahead of you can adopt a pet out of the currently available options, when its your turn you will have the choice to adopt a dog or cat.  You can see your place in line while you wait.
 
 ## Live App
