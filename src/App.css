@@ -42,6 +42,12 @@
   font-size: 18px;
 }
 
+p.description {
+  color: white;
+  margin: 40px 50px;
+  font-size: 18px;
+}
+
 
 @keyframes App-logo-spin {
   from {
