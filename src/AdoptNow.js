@@ -178,7 +178,7 @@ export class AdoptNow extends React.Component {
       return this.state.alreadyAdopted.map(
         animal => {
           return (
-            <ul className="AdoptNow__adoptedAnimal">
+            <ul  className="AdoptNow__adoptedAnimal">
               <li>
                 {' '}
                 <img
